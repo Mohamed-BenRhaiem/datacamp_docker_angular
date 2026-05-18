@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Clonage du repository GitHub...'
-                git branch: 'main', url: 'https://github.com/bahloulfares/datacamp_docker_angular.git'
+                git branch: 'main', url: 'https://github.com/Mohamed-BenRhaiem/datacamp_docker_angular.git'
             }
         }
 
